@@ -1,0 +1,6 @@
+AuthUserFile C:/Apache24/htdocs/DataCapper/downloadFiles/.htpasswd
+AuthName "Admins Only"
+AuthType Basic
+require user replaceWithAdminUserName
+
+DirectoryIndex cPanel.php
