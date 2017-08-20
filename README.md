@@ -1,6 +1,10 @@
 Author: ThriftyNick
 Version: 1.0.0
 
+Summary
+------------
+Places a datacap for logged-in users on specified filetypes within a target directory on Apache webserver.  Used as a deterrent for password sharing on membership sites.
+
 Installation
 -------------
 Note: It is assumed that your site runs on Apache webserver and that you have user authentication set up using Apache's built-in Authentication module. (Using either htaccess files or rules set in httpd.conf).

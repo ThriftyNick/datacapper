@@ -154,7 +154,7 @@ $(document).ready(function(){
 	}
 	?>
 	<label>Set datacap on the following filetypes: </label>
-	<input list="filetypes" required>
+	<input list="filetypes">
 	<datalist id="filetypes">
 		<!--Image-->
 		<option value="gif">

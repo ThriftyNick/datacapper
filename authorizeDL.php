@@ -120,7 +120,7 @@ $(document).ready(function(){
 		var file = url.searchParams.get('file');
 		window.location.assign(file);
 	} else if (result == 'unauthorized') {
-		$("#output").text("Datacap Exceeded.  Your datacap will be reset in " + <?php echo $settingsObj->dcTimeConstraint . " " . $settingsObj->dcTimeUnit . "."; ?>);
+		$("#output").text("Datacap Exceeded.  Your datacap will be reset in " + <?php echo "\"" . $settingsObj->dcTimeConstraint . " " . $settingsObj->dcTimeUnit . ".\""; ?>);
 	} else {
 		$("#output").text(result);
 	}
